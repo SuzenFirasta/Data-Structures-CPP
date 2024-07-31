@@ -2,14 +2,10 @@
 
 using namespace std;
 
-void BubbleSort(int arr[], int size) 
-{
-    for (int i = 0; i < size - 1; i++) 
-	{
-        for (int j = 0; j < size - 1 - i; j++) 
-		{
-            if (arr[j] > arr[j + 1]) 
-			{
+void BubbleSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -27,8 +23,7 @@ int main() {
     int arr[size];
 
     // Entering elements inside the array
-    for (int i = 0; i < size; i++) 
-	{
+    for (int i = 0; i < size; i++) {
         cout << "Enter an element inside your array: ";
         cin >> arr[i];
     }
@@ -36,8 +31,7 @@ int main() {
     cout << endl;
 
     cout << "Your array is: ";
-    for (int i = 0; i < size; i++) 
-	{
+    for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
 
@@ -46,11 +40,9 @@ int main() {
     BubbleSort(arr, size);
 
     cout << "Your array after bubble sort is: ";
-    for (int i = 0; i < size; i++) 
-	{
+    for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
 
     return 0;
 }
-
