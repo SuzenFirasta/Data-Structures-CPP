@@ -2,9 +2,12 @@
 
 using namespace std;
 
+// Function to swap every pair of alternate elements in the array
 void swapAlternate(int arr[], int size) {
     for (int i = 0; i < size - 1; i += 2) {
-        swap(arr[i], arr[i + 1]);
+        int temp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = temp;
     }
 }
 
@@ -12,14 +15,23 @@ int main() {
     int size;
     cout << "Enter size of the array: ";
     cin >> size;
-    cout << endl;
 
     int arr[size];
-    cout << "Enter elements of the array: ";
+    
     for (int i = 0; i < size; i++) {
+    	cout << "Enter elements of the array: ";
         cin >> arr[i];
     }
-
+	
+	cout<<endl;
+	
+	cout << "Array elements: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    
+    cout<<endl;
+	
     swapAlternate(arr, size);
 
     cout << "Array after swapping alternate elements: ";
