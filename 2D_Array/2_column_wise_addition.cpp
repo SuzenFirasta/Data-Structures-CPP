@@ -1,34 +1,54 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
-int main() {
-    int M, N;
-    cin >> M >> N; // Read the dimensions of the matrix
 
-    int matrix[1000][1000]; // Declare a 2D array for the matrix
-    int columnSum[1000] = {0}; // Array to hold the sum of each column, initialized to 0
-
-    // Read the matrix elements
-    for (int i = 0; i < M; i++) {
-        for (int j = 0; j < N; j++) {
-            cin >> matrix[i][j];
+int main()
+{
+	int rows;
+	cout<<"Enter Number of rows :- ";
+	cin>>rows;
+		
+	int cols;
+	cout<<"Enter Number of columns :- ";
+	cin>>cols;
+	
+	cout<<endl;
+	
+	int a[rows][cols];
+	
+	for(int i=0; i<rows; i++)
+	{
+		for(int j=0; j<cols; j++)
+		{
+			cout<<"Enter an element at "<<i<<" row and "<<j<<" column :- ";
+			cin>>a[i][j];
+		}
+	}
+	cout<<endl;
+	cout<<"Your 2D array is :- "<<endl;
+	
+	for(int i=0; i<rows; i++)
+	{
+		for(int j=0; j<cols; j++)
+		{
+			cout<<a[i][j]<<" ";
+		}
+		cout<<endl;
+	}
+	
+	cout<<endl;
+	
+	for (int j = 0; j < cols; j++)
+    {
+        int sum = 0; // Reset sum for each column
+        for (int i = 0; i < rows; i++)
+        {
+            sum = sum + a[i][j];
         }
-    }
 
-    // Calculate the sum of each column
-    for (int j = 0; j < N; j++) {
-        for (int i = 0; i < M; i++) {
-            columnSum[j] += matrix[i][j];
-        }
+        cout << "Sum of column " << j << " is: " << sum << endl;
     }
-
-    // Print the column sums separated by spaces
-    for (int j = 0; j < N; j++) {
-        cout << columnSum[j];
-        if (j < N - 1) {
-            cout << " "; // Add space between sums except after the last sum
-        }
-    }
-
-    return 0;
+    
+	return 0;
 }
