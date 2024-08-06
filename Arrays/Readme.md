@@ -1,6 +1,4 @@
-# C++ Foundation with Data Structures
-
-## Arrays
+# Arrays
 
 ### What are arrays?
 
