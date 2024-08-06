@@ -67,6 +67,3 @@ int fun (int arr[][number_of_columns], int n, int m) {
 - [Techgig 2D Arrays Practice](https://www.techgig.com/practice/data-structure/two-dimensional-arrays)
 
 Rest there are many questions available for practice on Codezen too. You can try them also.
-```
-
-This Markdown version should preserve the formatting and content from the original PDF document. Let me know if there's anything else you need!
