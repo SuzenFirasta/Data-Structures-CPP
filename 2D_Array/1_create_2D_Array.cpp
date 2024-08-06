@@ -20,7 +20,7 @@ int main()
 	{
 		for(int j=0; j<cols; j++)
 		{
-			cout<<"Enter an element at "<<i<<"th row and "<<j<<"th column :- ";
+			cout<<"Enter an element at "<<i<<" row and "<<j<<" column :- ";
 			cin>>a[i][j];
 		}
 	}
