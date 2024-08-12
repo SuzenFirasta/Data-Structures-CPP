@@ -148,6 +148,10 @@ Recursion is deeply connected to the **Principle of Mathematical Induction** (PM
 
 Recursion is a powerful tool in a programmer's toolkit, allowing for elegant solutions to complex problems. It challenges the mind to think differently, breaking down large problems into smaller, more manageable pieces.
 
+# Note 
+in the case of array whenever you are travesing from back make sure you start from size - 1;
+
 Happy coding, and may your recursive functions always find their base case! ✨
 
 ---
+
