@@ -150,9 +150,9 @@ Recursion is a powerful tool in a programmer's toolkit, allowing for elegant sol
 
 # Note
 
-When traversing an array from the end, always ensure that you start from the index `size - 1`. This approach is crucial for correctly accessing the last element of the array. 
+1. When traversing an array from the end, always ensure that you start from the index `size - 1`. This approach is crucial for correctly accessing the last element of the array. For a detailed explanation and implementation, refer to [10_Last_Index.cpp](./10_Last_Index.cpp).
 
-For a detailed explanation and implementation, refer to [10_Last_Index.cpp](./10_Last_Index.cpp).
+2. While traversing an array in recursive algorithms on arrays, the index returned from a recursive call is usually relative to the sub-array being processed. To get the correct index in the original array, you typically add 1 to the index returned by the recursive call, accounting for the element that was excluded from the sub-array during that recursive call.
 
 
 Happy coding, and may your recursive functions always find their base case! ✨
