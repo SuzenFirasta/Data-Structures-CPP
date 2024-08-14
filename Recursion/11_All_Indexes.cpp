@@ -60,7 +60,7 @@ int main() {
     return 0;
 }
 
-*/
+/*
 Sample Outputs :- 
   
 Enter the size of the array: 6
