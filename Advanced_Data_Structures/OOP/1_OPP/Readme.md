@@ -194,7 +194,3 @@ Explore the following topics to deepen your understanding of OOP:
 
 ---
 
-*This README.md is crafted to be a comprehensive guide to understanding the fundamentals of Object-Oriented Programming (OOP) in C++, with clear examples, code snippets, and explanations.*
-```
-
-This README.md is designed to serve as a comprehensive, creative, and visually engaging guide for anyone learning about Object-Oriented Programming in C++, covering essential concepts and providing clear examples to illustrate each point.

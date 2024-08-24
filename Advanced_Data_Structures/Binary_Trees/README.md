@@ -316,8 +316,3 @@ pair<int, int> heightDiameter(BinaryTreeNode*
 - [HackerEarth: Largest Cycle in a Tree](https://www.hackerearth.com/practice/data-structures/trees/binary-and-nary-trees/practice-problems/approximate/largest-cycle-in-a-tree-9113b3ab/)
 
 ---
-
-*This README.md is designed to be a comprehensive guide to understanding binary trees, with code snippets, diagrams, and detailed explanations.*
-```
-
-This README.md structure provides a rich, detailed, and engaging introduction to binary trees, using diagrams, code examples, and clear explanations. It serves both as a study guide and a reference document for anyone looking to understand or implement binary trees.
